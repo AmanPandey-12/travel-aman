@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
   <br />
     <a href="https://youtu.be/cuzw4vL1z5E?feature=shared" target="_blank">
@@ -448,3 +449,7 @@ And if you're hungry for more than just a course and want to understand how we l
 </a>
 
 #
+=======
+# travel-aman
+A travel guide
+>>>>>>> e777124e8c0bd60afd42e47eaeaaa1c5d5fda540
