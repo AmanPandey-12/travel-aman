@@ -1,13 +1,27 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
+  { href: '/', key: 'how_travel_work', label: 'How Travel Works?' },
+  { href: '/', key: 'destinations', label: 'Destinations' },
+  { href: '/', key: 'pricing', label: 'Pricing' },
   { href: '/', key: 'contact_us', label: 'Contact Us' },
 ];
 
-// CAMP SECTION
+// INDIAN DESTINATIONS - CAMPS/DESTINATIONS SECTION
+export const INDIAN_CITIES = [
+  { name: 'Delhi', country: 'India' },
+  { name: 'Jaipur', country: 'India' },
+  { name: 'Agra', country: 'India' },
+  { name: 'Varanasi', country: 'India' },
+  { name: 'Kerala', country: 'India' },
+  { name: 'Goa', country: 'India' },
+  { name: 'Mumbai', country: 'India' },
+  { name: 'Bangalore', country: 'India' },
+  { name: 'Himachal Pradesh', country: 'India' },
+  { name: 'Kashmir', country: 'India' },
+];
+
+// PEOPLE SECTION
 export const PEOPLE_URL = [
   '/person-1.png',
   '/person-2.png',
@@ -15,35 +29,35 @@ export const PEOPLE_URL = [
   '/person-4.png',
 ];
 
-// FEATURES SECTION
+// FEATURES SECTION - INDIAN TRAVEL FEATURES
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
+    title: 'Offline Maps of Indian Destinations',
     icon: '/map.svg',
-    variant: 'green',
+    variant: 'saffron',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      'Explore India with offline maps. Access detailed navigation for all major Indian cities, temples, and heritage sites without internet connection.',
   },
   {
-    title: 'Set an adventure schedule',
+    title: 'Plan Your Spiritual Journey',
     icon: '/calendar.svg',
-    variant: 'green',
+    variant: 'saffron',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      'Schedule visits to sacred temples, pilgrimage sites, and cultural festivals across India. Plan with friends and family for meaningful experiences.',
   },
   {
-    title: 'Technology using augment reality',
+    title: 'Immersive Cultural Experience',
     icon: '/tech.svg',
-    variant: 'green',
+    variant: 'saffron',
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      'Use AR technology to explore ancient monuments, temples, and historical sites. Learn about Indian heritage and culture in an interactive way.',
   },
   {
-    title: 'Many new locations every month',
+    title: 'Hidden Gems Every Month',
     icon: '/location.svg',
-    variant: 'orange',
+    variant: 'green',
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      'Discover new destinations every month - from snow-capped mountains to serene backwaters, from bustling cities to peaceful villages.',
   },
 ];
 
@@ -52,30 +66,30 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'About Hilink',
-      'Press Releases',
-      'Environment',
-      'Jobs',
+      'About TravelAman',
+      'Travel Guides',
+      'Heritage Sites',
+      'Careers',
       'Privacy Policy',
       'Contact Us',
     ],
   },
   {
-    title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    title: 'Indian Destinations',
+    links: ['Himalayan Treks', 'Temple Tours', 'Heritage Walks'],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: 'Customer Support', value: '+91 1234-567-890' },
+    { label: 'Email', value: 'support@travelaman.com' },
   ],
 };
 
 export const SOCIALS = {
-  title: 'Social',
+  title: 'Follow Us',
   links: [
     '/facebook.svg',
     '/instagram.svg',

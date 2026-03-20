@@ -8,9 +8,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        saffron: {
+          50: '#FF9933',
+          90: '#E6840D',
+        },
         green: {
-          50: '#30AF5B',
-          90: '#292C27',
+          50: '#138808',
+          90: '#0D5C05',
+        },
+        white: {
+          50: '#FFFFFF',
+          90: '#F5F5F5',
         },
         gray: {
           10: '#EEEEEE',
@@ -20,7 +28,7 @@ module.exports = {
           90: '#141414',
         },
         orange: {
-          50: '#FF814C',
+          50: '#FF9933',
         },
         blue: {
           70: '#021639',
